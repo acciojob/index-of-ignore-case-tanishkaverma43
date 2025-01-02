@@ -4,9 +4,9 @@ function indexOfIgnoreCase(s1, s2) {
   var lowerS1 = s1.toLowerCase();
   var lowerS2 = s2.toLowerCase();
   
-  var index = lowerS1.indexOf(lowerS2);
+ return lowerS1.indexOf(lowerS2);
 
-	return index;
+	
 	
 }
 
